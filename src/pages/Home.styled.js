@@ -18,6 +18,7 @@ export const HomeTitle = styled.h1`
   margin-left: auto;
   margin-top: 50px;
   line-height: 85px;
+  color: #2f4f4f;
 `;
 
 export const Border = styled.div`
