@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.4c9cba50.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.d2104875.js",
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.be7778de.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.1ec57d02.js",
+    "static/js/688.15d716df.chunk.js": "/goit-react-hw-08-phonebook/static/js/688.15d716df.chunk.js",
+    "static/js/969.b1230196.chunk.js": "/goit-react-hw-08-phonebook/static/js/969.b1230196.chunk.js",
+    "static/js/960.467e7dea.chunk.js": "/goit-react-hw-08-phonebook/static/js/960.467e7dea.chunk.js",
+    "static/js/728.c9b95d5e.chunk.js": "/goit-react-hw-08-phonebook/static/js/728.c9b95d5e.chunk.js",
+    "static/css/544.7c3dd9d6.chunk.css": "/goit-react-hw-08-phonebook/static/css/544.7c3dd9d6.chunk.css",
+    "static/media/eye-block.svg": "/goit-react-hw-08-phonebook/static/media/eye-block.d275cb0d4a8dd868369a64954c761b51.svg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.4c9cba50.css.map": "/goit-react-hw-08-phonebook/static/css/main.4c9cba50.css.map",
-    "main.d2104875.js.map": "/goit-react-hw-08-phonebook/static/js/main.d2104875.js.map"
+    "static/media/eye.svg": "/goit-react-hw-08-phonebook/static/media/eye.0491c93465aa4ec9a5f4b7087fed5080.svg",
+    "main.be7778de.css.map": "/goit-react-hw-08-phonebook/static/css/main.be7778de.css.map",
+    "main.1ec57d02.js.map": "/goit-react-hw-08-phonebook/static/js/main.1ec57d02.js.map",
+    "688.15d716df.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/688.15d716df.chunk.js.map",
+    "969.b1230196.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/969.b1230196.chunk.js.map",
+    "960.467e7dea.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/960.467e7dea.chunk.js.map",
+    "728.c9b95d5e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/728.c9b95d5e.chunk.js.map",
+    "544.7c3dd9d6.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/544.7c3dd9d6.chunk.css.map"
   },
   "entrypoints": [
-    "static/css/main.4c9cba50.css",
-    "static/js/main.d2104875.js"
+    "static/css/main.be7778de.css",
+    "static/js/main.1ec57d02.js"
   ]
 }
