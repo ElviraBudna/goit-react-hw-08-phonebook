@@ -1,5 +1,24 @@
 import { createSlice, isAnyOf } from '@reduxjs/toolkit';
-import { fetchContacts, addContact, deleteContact } from './operations';
+import { toast } from 'react-toastify';
+import {
+  fetchContacts,
+  addContact,
+  deleteContact,
+  editContact,
+} from './operations';
+
+const updateContact = (contactsArray, id, name, number) => {
+  return contactsArray.map(contact => {
+    if (contact.id === id) {
+      return {
+        id,
+        name: name,
+        number: number,
+      };
+    }
+    return contact;
+  });
+};
 
 const contactsSlice = createSlice({
   name: 'contacts',
@@ -21,6 +40,11 @@ const contactsSlice = createSlice({
         state.error = null;
         state.items = state.items.filter(task => task.id !== action.payload.id);
       })
+      .addCase(editContact.fulfilled, (state, action) => {
+        const { id, name, number } = action.payload;
+        const updatedContacts = updateContact(state.items, id, name, number);
+        state.items = updatedContacts;
+      })
       .addMatcher(
         isAnyOf(
           fetchContacts.pending,
@@ -35,11 +59,13 @@ const contactsSlice = createSlice({
         isAnyOf(
           fetchContacts.rejected,
           addContact.rejected,
-          deleteContact.rejected
+          deleteContact.rejected,
+          editContact.rejected
         ),
         (state, action) => {
           state.isLoading = false;
           state.error = action.payload;
+          toast.error('Something went wrong, try again please.');
         }
       );
   },
